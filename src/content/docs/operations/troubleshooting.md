@@ -14,7 +14,7 @@ description: "Check the failing connection or service first."
 | Slack DMs disabled | App Home Messages tab and message permission |
 | Discord offline | Bot token and Message Content Intent |
 | Old model in chat | Start a new session; inspect `/status` |
-| OAuth expired | [Repeat provider authentication](/martian-hermes-docs/hosting/models/#chatgpt--codex-oauth) |
+| OAuth expired | [Repeat provider authentication](/hosting/models/#chatgpt--codex-oauth) |
 | Heavy tool refuses to start | Another evaluation holds the advisory lock |
 | Target / operation rejected | Operator registration and adapter contract |
 
@@ -27,6 +27,6 @@ sudo systemctl list-timers martian-hermes-backup.timer
 sudo martian-hermes tools-verify
 ```
 
-Daily backup briefly pauses services around **03:15 UTC / 11:15 Singapore**. For reasoning-setting warnings, see [models](/martian-hermes-docs/hosting/models/).
+Daily backup briefly pauses services around **03:15 UTC / 11:15 Singapore**. For reasoning-setting warnings, see [models](/hosting/models/).
 
 Share only a redacted error excerpt. Logs can contain messages and provider details; never share credential files.

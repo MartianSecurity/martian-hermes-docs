@@ -4,7 +4,7 @@ description: "Edit Markdown, check the build and publish through GitHub Actions.
 ---
 
 ```bash
-git clone https://github.com/MorningHQ/martian-hermes-docs.git
+git clone https://github.com/MartianSecurity/martian-hermes-docs.git
 cd martian-hermes-docs
 npm ci
 npm run dev
@@ -22,7 +22,7 @@ npm run check
 npm run preview
 ```
 
-Check links, screenshots and mobile layout. Pull requests build/check; approved pushes to `main` deploy to GitHub Pages. No AWS or model secret is needed. Keep the `/martian-hermes-docs` base path when linking local pages or assets.
+Check links, screenshots and mobile layout. Pull requests build and check. Approved pushes to `main` deploy to [docs.hermes.martiansecurity.ai](https://docs.hermes.martiansecurity.ai/) through GitHub Pages. No AWS or model secret is needed. Use root-relative paths for local pages and assets, such as `/hosting/architecture/`.
 
 ## Writing rules
 

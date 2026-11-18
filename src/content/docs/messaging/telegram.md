@@ -4,7 +4,7 @@ description: "Create a bot and allow your numeric user ID."
 ---
 
 1. Create a bot through [BotFather](https://t.me/BotFather) using `/newbot`.
-2. Follow the [common setup](/martian-hermes-docs/messaging/setup/#add-a-channel).
+2. Follow the [common setup](/messaging/setup/#add-a-channel).
 3. As `hermes`, run `hermes gateway setup` and select **Telegram**.
 4. Enter the bot token and your **numeric Telegram user ID**.
 5. Check `TELEGRAM_ALLOWED_USERS`, then restart the gateway.

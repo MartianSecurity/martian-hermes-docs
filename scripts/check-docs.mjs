@@ -1,8 +1,9 @@
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import path from 'node:path';
+import { siteBase, siteOrigin } from '../site.config.mjs';
 
-const base = '/martian-hermes-docs/';
-const origin = 'https://morninghq.github.io';
+const base = `${siteBase.replace(/\/$/, '')}/`;
+const origin = siteOrigin;
 const root = path.resolve('dist');
 const failures = [];
 function files(directory, extension) {

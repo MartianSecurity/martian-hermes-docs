@@ -32,7 +32,7 @@ Close the browser when finished. Use a fresh context for each assessment.
 Load redteam-tools. Call list_targets, then search_cases with query "tool output".
 ```
 
-You should get two synthetic targets and a local recipe. Continue with [your first test](/martian-hermes-docs/get-started/first-assessment/).
+You should get two synthetic targets and a local recipe. Continue with [your first test](/get-started/first-assessment/).
 
 <details>
 <summary>Arguments and configuration</summary>
@@ -41,6 +41,6 @@ You should get two synthetic targets and a local recipe. Continue with [your fir
 
 The managed entries live in `$HERMES_HOME/config.yaml`. The installer preserves unrelated settings and rejects conflicts. `tools-verify` checks them.
 
-Only operators [register targets](/martian-hermes-docs/mcp/target-adapters/). Case lookup reads six local recipes, not a live Wiki. MCP filters restrict exposed tools; they are not a sandbox or network firewall.
+Only operators [register targets](/mcp/target-adapters/). Case lookup reads six local recipes, not a live Wiki. MCP filters restrict exposed tools; they are not a sandbox or network firewall.
 
 </details>

@@ -3,7 +3,7 @@ title: "Pick a tool"
 description: "Choose a tool for the test you are running."
 ---
 
-Use the [Martian MCP adapter](/martian-hermes-docs/mcp/servers/) for the lab walkthrough. Add these tools when the task needs them.
+Use the [Martian MCP adapter](/mcp/servers/) for the lab walkthrough. Add these tools when the task needs them.
 
 | Task | Installed tool |
 | --- | --- |
@@ -18,7 +18,7 @@ Use the [Martian MCP adapter](/martian-hermes-docs/mcp/servers/) for the lab wal
 | Inspect supplied source/images | [Gitleaks](https://github.com/gitleaks/gitleaks), [Trivy](https://github.com/aquasecurity/trivy) |
 | Observe callbacks | [Interactsh](https://github.com/projectdiscovery/interactsh) client/server; private collector required |
 
-**15 upstream components, 21 executable entry points.** Choose one browser interface per workflow. See [install and verify](/martian-hermes-docs/tools/operations/) for maintenance.
+**15 upstream components, 21 executable entry points.** Choose one browser interface per workflow. See [install and verify](/tools/operations/) for maintenance.
 
 ## What needs separate setup
 

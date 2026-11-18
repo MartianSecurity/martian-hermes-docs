@@ -22,7 +22,7 @@ Requires a previous release. This switches tools and managed settings; it does n
 
 ## Verify through the agent
 
-Run [the lab test](/martian-hermes-docs/get-started/first-assessment/) after activation. `tools-verify` checks receipts and hashes, not full runtime behavior. [Functional test record&nbsp;→](/martian-hermes-docs/operations/verification/)
+Run [the lab test](/get-started/first-assessment/) after activation. `tools-verify` checks receipts and hashes, not full runtime behavior. [Functional test record&nbsp;→](/operations/verification/)
 
 <details>
 <summary>Packaging and wrapper behavior</summary>
@@ -39,4 +39,4 @@ ZAP uses `-silent`. Promptfoo disables supported remote-generation fallbacks and
 
 </details>
 
-Keep reports and framework databases under the [backed-up workspace](/martian-hermes-docs/reference/paths/), not tool installation folders.
+Keep reports and framework databases under the [backed-up workspace](/reference/paths/), not tool installation folders.

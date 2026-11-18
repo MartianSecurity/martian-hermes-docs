@@ -7,15 +7,15 @@ Start with one app. At the 1 November documentation check, no personal messaging
 
 | App | You need |
 | --- | --- |
-| [Telegram](/martian-hermes-docs/messaging/telegram/) | Bot token + numeric user ID |
-| [WhatsApp](/martian-hermes-docs/messaging/whatsapp/) | Linked Device pairing; preferably a dedicated number |
-| [iMessage](/martian-hermes-docs/messaging/imessage/) | Photon relay or an always-on Mac with BlueBubbles |
-| [Discord](/martian-hermes-docs/messaging/discord/) | Bot + Message Content Intent |
-| [Slack](/martian-hermes-docs/messaging/slack/) | Bot token + Socket Mode app token |
+| [Telegram](/messaging/telegram/) | Bot token + numeric user ID |
+| [WhatsApp](/messaging/whatsapp/) | Linked Device pairing; preferably a dedicated number |
+| [iMessage](/messaging/imessage/) | Photon relay or an always-on Mac with BlueBubbles |
+| [Discord](/messaging/discord/) | Bot + Message Content Intent |
+| [Slack](/messaging/slack/) | Bot token + Socket Mode app token |
 
 ## Add a channel
 
-In an [operator shell](/martian-hermes-docs/get-started/access/#operator-terminal):
+In an [operator shell](/get-started/access/#operator-terminal):
 
 ```bash
 sudo martian-hermes backup --kind upgrade
