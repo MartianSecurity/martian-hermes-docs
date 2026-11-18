@@ -37,7 +37,7 @@ sudo martian-hermes status
 
 Tool installation can outlast CloudFormation deployment. If bootstrap fails, inspect `/var/log/cloud-init-output.log`.
 
-Before using the host, check the approved code pin, `/srv/hermes` mount, encryption, no ingress and loopback dashboard. Then run [a real agent/tool test](/martian-hermes-docs/get-started/first-assessment/) and [a restore rehearsal](/martian-hermes-docs/hosting/backups/#restore-rehearsal).
+Before using the host, check the approved code pin, `/srv/hermes` mount, encryption, no ingress and loopback dashboard. Then run [a real agent/tool test](/get-started/first-assessment/) and [a restore rehearsal](/hosting/backups/#restore-rehearsal).
 
 <details>
 <summary>Replacing an existing host</summary>

@@ -1,9 +1,10 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { documentationRepository, siteBase, siteOrigin } from './site.config.mjs';
 
 export default defineConfig({
-  site: 'https://morninghq.github.io',
-  base: '/martian-hermes-docs',
+  site: siteOrigin,
+  base: siteBase,
   trailingSlash: 'always',
   integrations: [starlight({
     title: 'Martian Hermes',
@@ -14,8 +15,8 @@ export default defineConfig({
       PageTitle: './src/components/PageTitle.astro',
       ThemeProvider: './src/components/ThemeProvider.astro',
     },
-    social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/MorningHQ/martian-hermes-docs' }],
-    editLink: { baseUrl: 'https://github.com/MorningHQ/martian-hermes-docs/edit/main/' },
+    social: [{ icon: 'github', label: 'GitHub', href: documentationRepository }],
+    editLink: { baseUrl: `${documentationRepository}/edit/main/` },
     customCss: ['./src/styles/custom.css'],
     expressiveCode: {
       themes: ['github-dark', 'github-light'],

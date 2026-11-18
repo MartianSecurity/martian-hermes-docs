@@ -9,7 +9,7 @@ Use the deployment's maintenance command. Direct `hermes update` bypasses its ap
 
 1. Review the stable release and schema changes.
 2. Prepare `approved-hermes-release.json` with the official repository, version, exact commit and installer SHA-256, matching `config/hermes-release.json`.
-3. Finish active work. Take and rehearse an [off-host backup](/martian-hermes-docs/hosting/backups/).
+3. Finish active work. Take and rehearse an [off-host backup](/hosting/backups/).
 4. Copy the reviewed file to the host and run:
 
 ```bash

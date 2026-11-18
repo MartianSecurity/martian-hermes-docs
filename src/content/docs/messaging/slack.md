@@ -3,7 +3,7 @@ title: "Slack"
 description: "Install a Socket Mode app and test a message."
 ---
 
-During the [common setup](/martian-hermes-docs/messaging/setup/#add-a-channel), run as `hermes`:
+During the [common setup](/messaging/setup/#add-a-channel), run as `hermes`:
 
 ```bash
 hermes slack manifest --agent-view --write

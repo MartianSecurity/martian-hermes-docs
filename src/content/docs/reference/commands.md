@@ -28,7 +28,7 @@ sudo martian-hermes skills-verify
 sudo martian-hermes tools-verify
 ```
 
-For changes, follow [tool maintenance](/martian-hermes-docs/tools/operations/) or [updates/rollback](/martian-hermes-docs/hosting/upgrades/). The custom service is `martian-hermes-gateway`.
+For changes, follow [tool maintenance](/tools/operations/) or [updates/rollback](/hosting/upgrades/). The custom service is `martian-hermes-gateway`.
 
 ## As the hermes user
 

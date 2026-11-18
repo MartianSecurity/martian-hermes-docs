@@ -3,7 +3,7 @@ title: "WhatsApp"
 description: "Pair a Linked Device and restrict senders."
 ---
 
-Follow the [common setup steps](/martian-hermes-docs/messaging/setup/#add-a-channel), then as `hermes`:
+Follow the [common setup steps](/messaging/setup/#add-a-channel), then as `hermes`:
 
 ```bash
 hermes whatsapp
